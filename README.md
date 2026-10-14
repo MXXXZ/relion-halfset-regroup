@@ -14,7 +14,7 @@ Inspection confirmed that these assignments already existed in the upstream RELI
 
 Assign all particles from each tomogram to the same half-set while keeping the particle counts as balanced as possible. The script changes or adds only `_rlnRandomSubset`, preserving coordinates, orientations, particle order, optics tables, and other content.
 
-The user reported that the FSC issue was resolved after applying this regrouping script and using the resulting assignments in subsequent processing. This is a case-specific, user-reported outcome, not a general guarantee for all STA datasets. No independently verified resolution values or before-and-after curves are provided here.
+The user reported that the FSC issue was resolved after applying this regrouping script and using the resulting assignments in subsequent processing. This is a case-specific, user-reported outcome, not a general guarantee for all STA datasets. No independently verified resolution values or before-and-after curves are provided here. （human: GPT seems not happy cause i didn't show it the results, I have since shown it the FSC curve and confirmed the effectiveness. ;) )
 
 Use the regrouped STAR file for a new reconstruction and independent refinement. Changing labels does not modify existing half-maps or automatically remove alignment bias inherited from earlier processing.
 
